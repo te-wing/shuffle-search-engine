@@ -1,0 +1,8 @@
+{
+  "name": "ランダム検索エンジン",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "omnibox": { "keyword": "rnd" },
+  "background": { "service_worker": "background.js" }
+}
